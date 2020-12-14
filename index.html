@@ -2,24 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Original Cottages Test</title>
     <script src="js/jquery-3.5.1.min.js"></script>
-    <link rel="stylesheet" href="css/index.css"></style>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.css"/>
 </head>
-<body class="body">
-    <h1>Orders</h1>
-    <table>
-        <thead>
-        <tr>
-            <th>Order No.</th>
-            <th>Date</th>
-            <th>Customer</th>
-            <th>Total</th>
-        </tr>
-        </thead>
-        <tbody id="orderBody">
-        </tbody>
-    </table>
+<body style="background: darkslategrey">
+    <div class="body">
+        <h1>Orders</h1>
+        <table class="table-striped">
+            <thead>
+            <tr>
+                <th>Order No.</th>
+                <th>Date</th>
+                <th>Customer</th>
+                <th>Total</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody id="orderBody">
+            </tbody>
+        </table>
+    </div>
 </body>
 <script type="text/javascript" src="js/index.js"></script>
 </html>
