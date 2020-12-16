@@ -1,0 +1,10 @@
+.body {
+    margin: 10%;
+    width: 80%;
+    background-color: darkslategrey;
+    color: beige;
+}
+
+.table-striped{
+    width: 100%;
+}

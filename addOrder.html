@@ -2,9 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Original Cottages Test - View Order</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.css"/>
 </head>
-<body>
+<body style="background: darkslategrey">
+<div class="body">
+    <div class="row">
+        <label for="customerSelect">Customer</label>
+        <select id="customerSelect" class="custom-select">
+            <option>Please select a customer</option>
+        </select>
+    </div>
+    <div class="row">
+        <h1>Items</h1>
+        <table>
+            <tbody>
+            <tr>
+                <td>
+                    <select id="customerSelect" class="custom-select">
+                        <option>Please select an item</option>
+                    </select>
+                </td>
+                <td>
+                    <select id="customerSelect" class="custom-select">
+                        <option>Please select an amount</option>
+                    </select>
+                </td>
+                <td>
+                    Total
+                </td>
+                <td>
+                    Delete
+                </td>
+            </tr>
+            </tbody>
+        </table>
 
+    </div>
+    <br/>
+    <a href="index.html" class="btn btn-info">Back</a>
+</div>
 </body>
+<script type="text/javascript" src="js/viewOrder.js"></script>
 </html>

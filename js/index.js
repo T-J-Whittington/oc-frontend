@@ -14,7 +14,7 @@ $(document).ready(function(){
                  "<td>" + line.id + "</td>" +
                  "<td>" + line.date + "</td>" +
                  "<td>" + line.name + "</td>" +
-                 "<td>" + line.total + "</td>" +
+                 "<td>£" + line.total + "</td>" +
                  "<td><a href='viewOrder.html?id=" + line.id + "'>View</a></td>" +
                  "</tr>";
              tableBody.append(tableInsert);
