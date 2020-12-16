@@ -1,10 +1,4 @@
 $(document).ready(function(){
-    // $.ajax({ url: "backend", "OrderController", "getOrders",
-    //     context: document.body,
-    //     success: function(){
-    //         alert("done");
-    //     }});
-
     $.get("http://localhost:8000/order/getorders", function(response){ //This should be fixed to work with more than just symfony localhost
         console.log(response);
         let tableInsert = "";
